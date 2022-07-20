@@ -3,6 +3,8 @@ import {Text, View, FlatList} from 'react-native';
 import Todoes from './components/Todoes';
 import InputView from './components/InputView';
 
+// This line is written by shahin
+
 export default function App() {
   const [task, setTask] = useState("");
   const [taskList, setTaskList] = useState([
